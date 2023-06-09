@@ -285,12 +285,7 @@
   align-items: center;
   display: flex;
   }
-  .text {
-  font-weight: 100;
-  font-size: 31px;
-  color: #19305c;
-  margin-bottom: 30px;
-  }
+
   .img-m{
   width: 80%; 
   margin-top: 400px;
@@ -544,14 +539,6 @@
     display: flex;
     padding: 0px;
   }
-  .footer__item {
-    border: none;
-    border-right: 1px solid #EFEFEF;
-  margin-top: 20px;
-  }
-  .footer__item:last-child {
-    border: none;
-  }
   .dwm {
     width: 80px;
     position: relative;
@@ -677,19 +664,6 @@
   .p-temp, .p-temp2{
   margin-bottom: 10px;
   }
-  
-  :root {
-  --color-on: #ffad61;
-  --color-off: #ffad61;
-  --shadow-on: 0 0 30px #ffad61,
-      0 0 60px #ffad61;
-  --shadow-off: 0 0 30px rgba(23, 0, 8, 0.6), 0 0 60px rgba(62, 0, 20, 0.4);
-  --animation-time: 1s; 
-  }
-  
-
-  
-  
   .neon {
   margin-top: -50px;
   font-family: "Neon";
