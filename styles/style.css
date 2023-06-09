@@ -5,7 +5,7 @@
     --color-text-offset: #ffad61;
   }
   
-  html body{
+  body{
   margin: 0;
   color: var(--color-text);
   background-color: var(--color-bg);
@@ -772,10 +772,16 @@
     display: flex;
     margin-top: 20px;
   }
+  h5 {
+    font-size: 30px;
+  }
   }
   @media (min-width: 576px) {
   .container {
     max-width: 540px;
+  }
+  h5 {
+    font-size: 30px;
   }
   }
   @media screen and (min-width: 700px){
@@ -881,9 +887,6 @@
   }
   @media (max-width: 768px) {
   .color-header {
-    background: linear-gradient(to bottom, #263859 50%, #EFEFEF 45%);
-  }
-  .color-header {
     height: auto;
   }
   .custom_menu-btn span {
@@ -895,6 +898,9 @@
   }  
   .menu_btn-style2 button span{
     background-color: #ffad61;
+  }
+  h5 {
+    font-size: 30px;
   }
   }
   @media (min-width: 768px) {
@@ -1034,9 +1040,6 @@
   .l{
     font-size: 14px;
   }
-  /* .marg-t{
-    margin-left: -35px;
-  } */
   .l-droite{
     grid-column-start: 3;
     grid-column-end: -1;
