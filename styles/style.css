@@ -39,7 +39,7 @@
   margin-bottom: 50px;
   }
   .lien-interview{
-    color: #ffad61;
+    color: white;
   }
   html body{
   margin:0px;
@@ -1028,6 +1028,7 @@
   .title--template2 {
     font-size: 30px;
     margin-left: 27px;
+    color: #ffad61;
   }
   .png-template{
     width: 80%;
